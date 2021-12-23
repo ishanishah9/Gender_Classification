@@ -7,7 +7,7 @@ Created on Thu Oct 14 16:47:59 2021
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.models import model_from_json
-import opencv-python as cv2
+import cv2
 
 import streamlit as st
 from PIL import Image,ImageOps
