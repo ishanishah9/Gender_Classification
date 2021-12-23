@@ -8,7 +8,7 @@ from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.models import model_from_json
 import cv2
-from .cv2 import *
+from cv2 import *
 import streamlit as st
 from PIL import Image,ImageOps
 import numpy as np
